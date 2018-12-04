@@ -99,7 +99,7 @@ module.exports = function(Chart) {
 
 		return {
 			w: ctx.measureText(label).width,
-			h: fontSize
+			h: fontSize + 10
 		};
 	}
 
