@@ -93,7 +93,7 @@ module.exports = function(Chart) {
 		if (helpers.isArray(label)) {
 			return {
 				w: helpers.longestText(ctx, ctx.font, label),
-				h: (label.length * fontSize) + ((label.length - 1) * 1.5 * fontSize)
+				h: (label.length * (fontSize + 10)) + ((label.length - 1) * 1.5 * (fontSize + 10))
 			};
 		}
 
